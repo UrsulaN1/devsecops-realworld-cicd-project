@@ -42,6 +42,8 @@
 - Run the following commands to push the code to a new branch in your GitHub repository:
         - Add the changes: `git add -A`
         - Commit changes: `git commit -m "Initial commit: Add project source code"`
+        - Run: `git remote add origin [YOUR_GITHUB_REPO_URL]`
+           - `git branch -M main`
         - Push the code to the default branch in your GitHub repository: `git push origin main`
         - Push the code to a new branch in your GitHub repository:
                 - `git checkout -b devsecops-cicd-project-one`
